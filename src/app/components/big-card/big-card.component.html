@@ -7,8 +7,14 @@
       srcset= ""
     >
   </div>
+  <div class="big-card_publicationDate">
+    <p><a [routerLink]="['content',Id]">{{publicationDate}}</a></p>
+  </div>
   <div class="big-card_title">
     <h1><a [routerLink]="['content',Id]">{{cardTitle}}</a></h1>
+  </div>
+  <div class="big-card_autor">
+    <p><a [routerLink]="['content',Id]">{{cardAutor}}</a></p>
   </div>
   <div class="big-card_description">
     <p>
